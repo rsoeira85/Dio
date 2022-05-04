@@ -17,7 +17,7 @@ export const books: Book[] = [
 
 export class BooksService {
 
-  private url = 'https://localhost:44382/api/bookstore';  // URL to web api
+  private url = 'https://apibookstore20220408185052.azurewebsites.net/api/bookstore';  // URL to web api
 
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
